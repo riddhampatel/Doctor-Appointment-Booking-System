@@ -1,4 +1,7 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 
 @theme {
   --color-primary: #5f6fff;
@@ -7,3 +10,8 @@
 .active hr{
   @apply block
 }
+
+::-webkit-scrollbar{
+  @apply hidden
+}
+
