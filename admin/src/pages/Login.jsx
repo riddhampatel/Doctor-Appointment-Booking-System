@@ -27,8 +27,11 @@ const Login = () => {
           toast.error(data.message)
         }
       } else {
+
       }
-    } catch (error) {}
+    } catch (error) {
+      
+    }
   };
 
   return (
